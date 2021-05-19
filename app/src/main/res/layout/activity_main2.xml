@@ -28,7 +28,7 @@
         android:layout_marginHorizontal="100dp"
         android:layout_marginTop="100dp"
         android:text="@string/email"
-        android:textSize="13dp"
+        android:textSize="13sp"
         android:textColor="@color/white" />
 
     <EditText
@@ -37,7 +37,7 @@
         android:layout_height="54dp"
         android:layout_marginHorizontal="100dp"
         android:text="@string/password"
-        android:textSize="13dp"
+        android:textSize="13sp"
         android:textColor="@color/white" />
 
     <Button
@@ -47,8 +47,7 @@
         android:layout_marginHorizontal="100dp"
         android:layout_marginTop="8dp"
         android:layout_height="54dp"
-        android:textColor="@color/white"
-        android:background="@drawable/outline2"/>
+        android:textColor="@color/black"/>
 
     <TextClock
         android:layout_width="match_parent"
