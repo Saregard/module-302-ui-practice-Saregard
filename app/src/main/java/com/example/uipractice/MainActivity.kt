@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val calendar = Calendar.getInstance()
 
-        val currentDate = DateFormat.getDateInstance().format(calendar.time)
+        val currentDate = DateFormat.getDateInstance(DateFormat.FULL).format(calendar.time)
 
         val textViewDate = findViewById<TextView>(R.id.text_view_date)
         textViewDate.text = currentDate
