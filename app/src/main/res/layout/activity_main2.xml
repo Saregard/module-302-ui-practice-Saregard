@@ -23,12 +23,22 @@
 
     <EditText
         android:id="@+id/email"
-        android:text="@string/email"
         android:layout_width="match_parent"
         android:layout_height="54dp"
-        android:layout_marginTop="200dp"
         android:layout_marginHorizontal="100dp"
-        android:textColor="@color/white"/>
+        android:layout_marginTop="100dp"
+        android:text="@string/email"
+        android:textSize="13dp"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginHorizontal="100dp"
+        android:text="@string/password"
+        android:textSize="13dp"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/login"
