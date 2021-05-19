@@ -29,6 +29,7 @@
         android:layout_marginTop="120dp"
         android:hint="@string/email"
         android:textSize="13sp"
+        android:textStyle="bold"
         android:textColorHint="@color/sky_color"/>
 
     <EditText
@@ -38,6 +39,7 @@
         android:layout_marginHorizontal="100dp"
         android:hint="@string/password"
         android:textSize="13sp"
+        android:textStyle="bold"
         android:textColorHint="@color/sky_color"/>
 
     <Button
@@ -48,6 +50,7 @@
         android:layout_marginHorizontal="100dp"
         android:layout_marginTop="20dp"
         android:layout_height="50dp"
+        android:textStyle="bold"
         android:textColor="@color/black"
         android:background="@drawable/white_background"/>
 
@@ -75,6 +78,7 @@
             android:textAlignment="center"
             android:layout_marginTop="10dp"
             android:textSize="12sp"
+
             android:lineSpacingExtra="10dp"/>
         <View
             android:layout_width="match_parent"
