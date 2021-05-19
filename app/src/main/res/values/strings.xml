@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">UI Practice</string>
+    <string name="brand_name">Brand</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">LOGIN</string>
+</resources>
