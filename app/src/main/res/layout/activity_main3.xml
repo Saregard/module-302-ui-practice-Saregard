@@ -37,12 +37,13 @@
         android:layout_width="match_parent"
         android:layout_height="54dp"
         android:layout_marginHorizontal="100dp"
-        android:hint="@string/password"
+        android:hint="@string/email"
         android:textSize="13sp"
         android:textStyle="bold"
         android:textColorHint="@color/sky_color"
         android:textColor="@color/sky_color"
-        android:backgroundTint="@color/sky_color"/>
+        android:backgroundTint="@color/sky_color"
+        android:inputType="textEmailAddress"/>
 
     <EditText
         android:id="@+id/password"
@@ -54,6 +55,7 @@
         android:textStyle="bold"
         android:textColorHint="@color/sky_color"
         android:textColor="@color/sky_color"
+        android:inputType="textPassword"
         android:backgroundTint="@color/sky_color"/>
 
     <Button
