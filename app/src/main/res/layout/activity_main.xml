@@ -46,6 +46,7 @@
         android:background="@drawable/outline"/>
 
     <TextClock
+        android:id="@+id/clock"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/sky_color"
