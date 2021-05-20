@@ -44,6 +44,7 @@
         android:textStyle="bold"
         android:textColorHint="@color/sky_color"
         android:textColor="@color/sky_color"
+        android:inputType="textPassword"
         android:backgroundTint="@color/sky_color"/>
 
     <Button
