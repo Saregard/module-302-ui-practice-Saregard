@@ -30,7 +30,9 @@
         android:hint="@string/email"
         android:textSize="13sp"
         android:textStyle="bold"
-        android:textColorHint="@color/sky_color"/>
+        android:textColorHint="@color/sky_color"
+        android:textColor="@color/sky_color"
+        android:backgroundTint="@color/sky_color"/>
 
     <EditText
         android:id="@+id/password"
@@ -40,7 +42,9 @@
         android:hint="@string/password"
         android:textSize="13sp"
         android:textStyle="bold"
-        android:textColorHint="@color/sky_color"/>
+        android:textColorHint="@color/sky_color"
+        android:textColor="@color/sky_color"
+        android:backgroundTint="@color/sky_color"/>
 
     <Button
         android:id="@+id/login"
