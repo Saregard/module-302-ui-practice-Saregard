@@ -32,7 +32,8 @@
         android:textStyle="bold"
         android:textColorHint="@color/sky_color"
         android:textColor="@color/sky_color"
-        android:backgroundTint="@color/sky_color"/>
+        android:backgroundTint="@color/sky_color"
+        android:inputType="textEmailAddress"/>
 
     <EditText
         android:id="@+id/password"
