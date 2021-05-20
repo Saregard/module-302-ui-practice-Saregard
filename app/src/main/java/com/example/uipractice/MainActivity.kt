@@ -16,8 +16,6 @@ class MainActivity : AppCompatActivity() {
     private var signUpButton: Button? = null
     private var loginButton: Button? = null
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
