@@ -9,12 +9,14 @@ import android.widget.EditText
 import android.widget.TextView
 import org.w3c.dom.Text
 import java.text.DateFormat
+import java.text.SimpleDateFormat
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
     private var signUpButton: Button? = null
     private var loginButton: Button? = null
+    private var textViewDate: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,9 +34,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(loginIntent)
         }
 
-        val calendar = Calendar.getInstance()
-        val currentDate = DateFormat.getDateInstance(DateFormat.FULL).format(calendar.time)
-        val textViewDate = findViewById<TextView>(R.id.text_view_date)
-        textViewDate.text = currentDate
+        textViewDate = findViewById(R.id.text_view_date)
+        val currentDate = Date()
+        val dateFormat = SimpleDateFormat("EEEE MMMM yyyy")
+        val dateToShow = dateFormat.format(currentDate)
+        textViewDate?.text = dateToShow
     }
+
 }
