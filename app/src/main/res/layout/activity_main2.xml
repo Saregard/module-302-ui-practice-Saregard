@@ -21,6 +21,8 @@
         android:textColor="@color/black"
         android:text="@string/brand_name"/>
 
+
+
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
