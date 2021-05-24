@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         signUpButton = findViewById(R.id.sign_up)
         loginButton = findViewById(R.id.login)
+        textViewDate = findViewById(R.id.text_view_date)
 
         signUpButton?.setOnClickListener{
             val singUpIntent = Intent(this, MainActivity3::class.java)
@@ -34,11 +35,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(loginIntent)
         }
 
-        textViewDate = findViewById(R.id.text_view_date)
         val currentDate = Date()
-        val dateFormat = SimpleDateFormat("EEEE MMMM yyyy")
-        val dateToShow = dateFormat.format(currentDate)
-        textViewDate?.text = dateToShow
+        textViewDate?.text = SimpleDateFormat("EEEE MMMM yyyy").format(currentDate)
     }
 
 }
