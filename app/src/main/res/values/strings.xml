@@ -10,7 +10,9 @@
     <string name="log_in_with_facebook">LOG IN WITH FACEBOOK</string>
     <string name="name">NAME</string>
     <string name="create_account">CREATE ACCOUNT</string>
-    <string name="username_required_error">Username required</string>
+    <string name="email_required_error">Email required</string>
     <string name="password_required_error">Password required</string>
+    <string name="password_needs_at_least_6_characters">Password needs at least 6 characters</string>
     <string name="needs_to_be_an_email">Needs to be an email</string>
+    <string name="name_required_error">Name required</string>
 </resources>
