@@ -12,6 +12,5 @@
     <string name="create_account">CREATE ACCOUNT</string>
     <string name="username_required_error">Username required</string>
     <string name="password_required_error">Password required</string>
-    <string name="needs_to_be_email">Needs to be email</string>
-    <string name="you_have_successfully_logged_in">You have successfully logged in</string>
+    <string name="needs_to_be_an_email">Needs to be an email</string>
 </resources>
