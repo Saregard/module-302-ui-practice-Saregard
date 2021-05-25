@@ -32,22 +32,20 @@ class MainActivity2 : AppCompatActivity(){
     private fun configureClickListener() {
         loginButton?.setOnClickListener {
             val email = editTextEmail?.text.toString()
-            when {
-                email.isEmpty() -> {
-                    editTextEmail?.error = getString(R.string.username_required_error)
-                }
-                editTextPassword?.text.toString().isEmpty() -> {
-                    editTextPassword?.error = getString(R.string.password_required_error)
-                }
-                else -> Toast.makeText(this, "Logged in", Toast.LENGTH_LONG).show()
-            }
+            val password = editTextPassword?.text.toString()
 
-            if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                Toast.makeText(this,"Hello ",Toast.LENGTH_LONG).show()
-            } else {
-                Toast.makeText(this,"Bye Bye ",Toast.LENGTH_LONG).show()
+            if (email.isEmpty()) {
+                editTextEmail?.error = getString(R.string.username_required_error)
             }
-
+            if (!Patterns.EMAIL_ADDRESS.matcher(email).matches() && email.isNotEmpty()) {
+                editTextEmail?.error = getString(R.string.needs_to_be_an_email)
+            }
+            if (password.isEmpty()){
+                editTextPassword?.error = getString(R.string.password_required_error)
+            }
+            if (password.isNotEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+            Toast.makeText(this, "Logged in", Toast.LENGTH_LONG).show()
+            }
         }
     }
 
