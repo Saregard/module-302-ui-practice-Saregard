@@ -35,7 +35,7 @@ class MainActivity2 : AppCompatActivity(){
             val password = editTextPassword?.text.toString()
 
             if (email.isEmpty()) {
-                editTextEmail?.error = getString(R.string.username_required_error)
+                editTextEmail?.error = getString(R.string.email_required_error)
             }
             if (!Patterns.EMAIL_ADDRESS.matcher(email).matches() && email.isNotEmpty()) {
                 editTextEmail?.error = getString(R.string.needs_to_be_an_email)
