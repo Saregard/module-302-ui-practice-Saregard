@@ -3,12 +3,8 @@ package com.example.uipractice
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
-import android.widget.EditText
 import android.widget.TextView
-import org.w3c.dom.Text
-import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -29,10 +25,13 @@ class MainActivity : AppCompatActivity() {
         signUpButton?.setOnClickListener{
             val singUpIntent = Intent(this, MainActivity3::class.java)
             startActivity(singUpIntent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
         loginButton?.setOnClickListener{
             val loginIntent = Intent(this, MainActivity2::class.java)
             startActivity(loginIntent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+
         }
 
         val currentDate = Date()

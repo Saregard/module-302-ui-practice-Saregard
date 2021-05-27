@@ -49,4 +49,9 @@ class MainActivity2 : AppCompatActivity(){
         }
     }
 
+    override fun finish() {
+        super.finish()
+        overridePendingTransition(R.anim.slide_out_right, R.anim.slide_in_left)
+    }
+
 }
