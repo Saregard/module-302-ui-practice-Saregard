@@ -9,7 +9,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 
-class MainActivity2 : AppCompatActivity(){
+class MainActivity2 : AppCompatActivity() {
 
     private var editTextEmail: EditText? = null
     private var editTextPassword: EditText? = null
@@ -29,6 +29,7 @@ class MainActivity2 : AppCompatActivity(){
         configureClickListener()
 
     }
+
     private fun configureClickListener() {
         loginButton?.setOnClickListener {
             val email = editTextEmail?.text.toString()
@@ -40,11 +41,11 @@ class MainActivity2 : AppCompatActivity(){
             if (!Patterns.EMAIL_ADDRESS.matcher(email).matches() && email.isNotEmpty()) {
                 editTextEmail?.error = getString(R.string.needs_to_be_an_email)
             }
-            if (password.isEmpty()){
+            if (password.isEmpty()) {
                 editTextPassword?.error = getString(R.string.password_required_error)
             }
             if (password.isNotEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            Toast.makeText(this, "Logged in", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Logged in", Toast.LENGTH_LONG).show()
             }
         }
     }
