@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
@@ -23,20 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17799b48-ce7a-4ff9-a812-04d97df5ee2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_left.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_left.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_right.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uipractice/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/uipractice/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uipractice/MainActivity2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/uipractice/MainActivity2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/uipractice/MainActivity3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/uipractice/MainActivity3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Android\.android\avd\Pixel_3a_API_30_x86.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -62,6 +63,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-27T15:42:36.669284Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module-302-app-1-github-browser-Saregard" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -152,6 +154,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1102" y="338" key="AndroidCreateResourceDirectoryDialog" timestamp="1622128663190">
@@ -162,6 +165,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="860" y="475" key="AndroidCreateResourceFileDialog/0.0.2560.1440/-1920.355.1920.1080/2560.355.1920.1080@0.0.2560.1440" timestamp="1622129424754" />
+    <state x="1060" y="475" key="FileChooserDialogImpl" timestamp="1622196262200">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1060" y="475" key="FileChooserDialogImpl/0.0.2560.1440/-1920.355.1920.1080/2560.355.1920.1080@0.0.2560.1440" timestamp="1622196262200" />
     <state x="781" y="365" key="SettingsEditor" timestamp="1622130005573">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
