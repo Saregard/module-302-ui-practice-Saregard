@@ -22,12 +22,12 @@ class MainActivity : AppCompatActivity() {
         loginButton = findViewById(R.id.login)
         textViewDate = findViewById(R.id.text_view_date)
 
-        signUpButton?.setOnClickListener{
+        signUpButton?.setOnClickListener {
             val singUpIntent = Intent(this, MainActivity3::class.java)
             startActivity(singUpIntent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
-        loginButton?.setOnClickListener{
+        loginButton?.setOnClickListener {
             val loginIntent = Intent(this, MainActivity2::class.java)
             startActivity(loginIntent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
