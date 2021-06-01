@@ -15,7 +15,6 @@ class MainActivity3 : AppCompatActivity() {
     private var createAccountButton: Button? = null
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
@@ -26,14 +25,14 @@ class MainActivity3 : AppCompatActivity() {
         configureClickListener()
     }
 
-    private fun configureClickListener(){
+    private fun configureClickListener() {
 
         createAccountButton?.setOnClickListener {
             val name = editTextName?.text.toString()
             val email = editTextEmail?.text.toString()
             val password = editTextPassword?.text.toString()
 
-            if (name.isEmpty()){
+            if (name.isEmpty()) {
                 editTextName?.error = getString(R.string.name_required_error)
             }
             if (email.isEmpty()) {
