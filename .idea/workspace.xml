@@ -61,7 +61,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-27T15:42:36.669284Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module-302-app-1-github-browser-Saregard" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -163,10 +163,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="860" y="475" key="AndroidCreateResourceFileDialog/0.0.2560.1440/-1920.355.1920.1080/2560.355.1920.1080@0.0.2560.1440" timestamp="1622129424754" />
-    <state x="1060" y="475" key="FileChooserDialogImpl" timestamp="1622196262200">
+    <state x="1060" y="475" key="FileChooserDialogImpl" timestamp="1622799260182">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1060" y="475" key="FileChooserDialogImpl/0.0.2560.1440/-1920.355.1920.1080/2560.355.1920.1080@0.0.2560.1440" timestamp="1622196262200" />
+    <state x="1060" y="475" key="FileChooserDialogImpl/0.0.2560.1440/-1920.355.1920.1080/2560.355.1920.1080@0.0.2560.1440" timestamp="1622799260182" />
     <state width="2517" height="413" key="GridCell.Tab.0.bottom" timestamp="1622791978411">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
