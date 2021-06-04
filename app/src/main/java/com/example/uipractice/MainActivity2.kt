@@ -27,7 +27,6 @@ class MainActivity2 : AppCompatActivity() {
         forgotPasswordText = findViewById(R.id.forgot_password)
         facebookLoginButton = findViewById(R.id.log_in_with_facebook)
         configureClickListener()
-
     }
 
     private fun configureClickListener() {
@@ -54,5 +53,4 @@ class MainActivity2 : AppCompatActivity() {
         super.finish()
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
     }
-
 }
