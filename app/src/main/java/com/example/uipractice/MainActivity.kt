@@ -31,11 +31,9 @@ class MainActivity : AppCompatActivity() {
             val loginIntent = Intent(this, MainActivity2::class.java)
             startActivity(loginIntent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
-
         }
 
         val currentDate = Date()
         textViewDate?.text = SimpleDateFormat("EEEE MMMM yyyy").format(currentDate)
     }
-
 }
